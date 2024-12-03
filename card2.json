@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "schema": "http://schema.org/",
+    "vcard": "http://www.w3.org/2006/vcard/ns#"
+  },
+  "@id": "http://example.org/person/123",
+  "@type": "foaf:Person",
+  "foaf:name": "Alice Johnson",
+  "foaf:mbox": "mailto:alice@example.org",
+  "schema:birthDate": "1985-05-01",
+  "vcard:hasAddress": {
+    "@type": "vcard:Address",
+    "vcard:street-address": "123 Maple Street",
+    "vcard:locality": "Springfield",
+    "vcard:region": "IL",
+    "vcard:postal-code": "62704",
+    "vcard:country-name": "USA"
+  },
+  "foaf:knows": [
+    {
+      "@id": "http://example.org/person/456",
+      "@type": "foaf:Person",
+      "foaf:name": "Bob Smith"
+    },
+    {
+      "@id": "http://example.org/person/789",
+      "@type": "foaf:Person",
+      "foaf:name": "Carol Lee"
+    }
+  ]
+}
