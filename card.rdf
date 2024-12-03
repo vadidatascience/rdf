@@ -1,6 +1,3 @@
-
-
-
 <rdf:RDF xmlns="http://xmlns.com/foaf/0.1/"
     xmlns:cc="http://creativecommons.org/ns#"
     xmlns:cert="http://www.w3.org/ns/auth/cert#"
@@ -18,19 +15,16 @@
     xmlns:solid="http://www.w3.org/ns/solid/terms#"
     xmlns:space="http://www.w3.org/ns/pim/space#"
     xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
-
     <rdf:Description rdf:about="../../DesignIssues/Overview.html">
         <dc:title>Design Issues for the World Wide Web</dc:title>
         <maker rdf:resource="https://www.w3.org/People/Berners-Lee/card#i"/>
     </rdf:Description>
-
     <PersonalProfileDocument rdf:about="">
         <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
         <dc:title>Tim Berners-Lee's FOAF file</dc:title>
         <maker rdf:resource="https://www.w3.org/People/Berners-Lee/card#i"/>
         <primaryTopic rdf:resource="https://www.w3.org/People/Berners-Lee/card#i"/>
     </PersonalProfileDocument>
-
     <rdf:Description rdf:about="#i">
         <cert:key rdf:parseType="Resource">
             <rdf:type rdf:resource="http://www.w3.org/ns/auth/cert#RSAPublicKey"/>
@@ -38,7 +32,6 @@
             <cert:modulus rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">ebe99c737bd3670239600547e5e2eb1d1497da39947b6576c3c44ffeca32cf0f2f7cbee3c47001278a90fc7fc5bcf292f741eb1fcd6bbe7f90650afb519cf13e81b2bffc6e02063ee5a55781d420b1dfaf61c15758480e66d47fb0dcb5fa7b9f7f1052e5ccbd01beee9553c3b6b51f4daf1fce991294cd09a3d1d636bc6c7656e4455d0aff06daec740ed0084aa6866fcae1359de61cc12dbe37c8fa42e977c6e727a8258bb9a3f265b27e3766fe0697f6aa0bcc81c3f026e387bd7bbc81580dc1853af2daa099186a9f59da526474ef6ec0a3d84cf400be3261b6b649dea1f78184862d34d685d2d587f09acc14cd8e578fdd2283387821296f0af39b8d8845</cert:modulus>
         </cert:key>
     </rdf:Description>
-
     <rdf:Description rdf:about="http://dig.csail.mit.edu/2005/ajar/ajaw/data#Tabulator">
         <doap:developer rdf:resource="https://www.w3.org/People/Berners-Lee/card#i"/>
     </rdf:Description>
@@ -46,47 +39,38 @@
     <rdf:Description rdf:about="http://dig.csail.mit.edu/2007/01/camp/data#course">
         <maker rdf:resource="https://www.w3.org/People/Berners-Lee/card#i"/>
     </rdf:Description>
-
     <rdf:Description rdf:about="http://dig.csail.mit.edu/breadcrumbs/blog/4">
         <dc:title>timbl's blog on DIG</dc:title>
         <s:seeAlso rdf:resource="http://dig.csail.mit.edu/breadcrumbs/blog/feed/4"/>
         <maker rdf:resource="https://www.w3.org/People/Berners-Lee/card#i"/>
     </rdf:Description>
-
     <rdf:Description rdf:about="http://dig.csail.mit.edu/data#DIG">
         <member rdf:resource="https://www.w3.org/People/Berners-Lee/card#i"/>
     </rdf:Description>
-
     <rdf:Description rdf:about="http://wiki.ontoworld.org/index.php/_IRW2006">
         <dc:title>Identity, Reference and the Web workshop 2006</dc:title>
         <con:participant rdf:resource="https://www.w3.org/People/Berners-Lee/card#i"/>
     </rdf:Description>
-
     <rdf:Description rdf:about="http://www.ecs.soton.ac.uk/~dt2/dlstuff/www2006_data#panel-panelk01">
         <s:label>The Next Wave of the Web (Plenary Panel)</s:label>
         <con:participant rdf:resource="https://www.w3.org/People/Berners-Lee/card#i"/>
     </rdf:Description>
-
     <rdf:Description rdf:about="http://www.w3.org/2000/10/swap/data#Cwm">
         <doap:developer rdf:resource="https://www.w3.org/People/Berners-Lee/card#i"/>
     </rdf:Description>
-
     <rdf:Description rdf:about="http://www.w3.org/2011/Talks/0331-hyderabad-tbl/data#talk">
         <dct:title>Designing the Web for an Open Society</dct:title>
         <maker rdf:resource="https://www.w3.org/People/Berners-Lee/card#i"/>
     </rdf:Description>
-
     <rdf:Description rdf:about="http://www.w3.org/data#W3C">
         <member rdf:resource="https://www.w3.org/People/Berners-Lee/card#i"/>
     </rdf:Description>
-
     <PersonalProfileDocument rdf:about="https://timbl.com/timbl/Public/friends.ttl">
         <cc:license rdf:resource="http://creativecommons.org/licenses/by-nc/3.0/"/>
         <dc:title>Tim Berners-Lee's editable profile</dc:title>
         <maker rdf:resource="https://www.w3.org/People/Berners-Lee/card#i"/>
         <primaryTopic rdf:resource="https://www.w3.org/People/Berners-Lee/card#i"/>
     </PersonalProfileDocument>
-
     <con:Male rdf:about="https://www.w3.org/People/Berners-Lee/card#i">
         <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <sioc:avatar rdf:resource="images/timbl-image-by-Coz-cropped.jpg"/>
